@@ -1,0 +1,15 @@
+=== Vending Machine Predictive Analytics Simulation ===
+
+Generating 30 days of historical transaction data...
+
+--- Scenario 1: Normal Traffic ---
+Product: Cola   | Stock: 25 | Forecasted Demand: 21.79 | Base Price: $1.50 -> Dynamic Price: $1.65
+Product: Chips  | Stock: 15 | Forecasted Demand:  7.79 | Base Price: $1.00 -> Dynamic Price: $1.00
+Product: Water  | Stock: 40 | Forecasted Demand: 20.57 | Base Price: $1.25 -> Dynamic Price: $1.25
+Product: Candy  | Stock:  5 | Forecasted Demand: 10.43 | Base Price: $0.75 -> Dynamic Price: $0.90
+
+--- Scenario 2: +20% Dummy Traffic Spike ---
+Product: Cola   | Stock: 25 | Spiked Demand:   26.15 | Base Price: $1.50 -> Dynamic Price: $1.80
+Product: Chips  | Stock: 15 | Spiked Demand:    9.35 | Base Price: $1.00 -> Dynamic Price: $1.00
+Product: Water  | Stock: 40 | Spiked Demand:   24.68 | Base Price: $1.25 -> Dynamic Price: $1.25
+Product: Candy  | Stock:  5 | Spiked Demand:   12.52 | Base Price: $0.75 -> Dynamic Price: $0.90
